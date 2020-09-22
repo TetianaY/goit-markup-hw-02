@@ -10,15 +10,16 @@
   </head>
 
   <body>
-    <!--шапка-->
+    <!--------------ШАПКА------->
     <header class="header">
       <!--навигационные элементы-->
       <nav class="navigation">
-        <!--лого-ссылка-->
+        <!--ЛОГО-ССЫЛКА-->
         <a class="logo link" href="./index.html" aria-label="логотип вэбстудия">Web<span class="logo-item">Studio</span></a>
+        <!-------СПИСОК НАВИГАЦИОННЫХ ЭЛЕМЕНТОВ----->
         <ul class="navigation-list list">
           <li class="navigation-list-item">
-            <a class="navigation-list-link link" href="">Студия</a>
+            <a class="navigation-list-link link current" href="./index.html">Студия</a>
           </li>
           <li class="navigation-list-item">
             <a class="navigation-list-link link" href="./portfolio.html">Портфолио</a>
@@ -28,7 +29,8 @@
           </li>
         </ul>
       </nav>
-      <ul class="list">
+      <!--КОНТАКТЫ-->
+      <ul class="navigation-contacts list">
         <li>
           <a class="header-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
@@ -39,15 +41,16 @@
       </ul>
     </header>
     <main>
-      <!--HERO-->
-      <section>
+      <!--ГЕРОЙ-->
+
+      <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button class="modal-btn" type="button">Заказать услугу</button>
       </section>
 
       <!--ОСОБЕННОСТИ-->
-      <section>
-        <h2 class="title">Особенности</h2>
+      <section class="section features">
+        <h2 class="section-title">Особенности</h2>
         <ul class="list">
           <li>
             <h3 class="subtitle">Внимание к деталям</h3>
@@ -71,8 +74,10 @@
         </ul>
       </section>
 
-      <section>
-        <h2 class="title">Чем мы занимаемся</h2>
+      <!----ЧЕМ ЗАНИМАЕМСЯ-------->
+
+      <section class="section work">
+        <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
             <img src="./images/studio/we-doing/box1.jpg" alt="специалист работает за планшетом и компьютером" width="370" height="294" />
@@ -87,8 +92,8 @@
       </section>
 
       <!--НАША КОМАНДА-->
-      <section>
-        <h2 class="title">Наша команда</h2>
+      <section class="section team">
+        <h2 class="section-title">Наша команда</h2>
         <ul class="list">
           <li>
             <img src="./images/studio/our-team/img-1.jpg" alt="Фото Игоря Демьяненко" width="270" height="260" />
@@ -121,8 +126,8 @@
     </main>
 
     <!--ФУТЕР-->
-    <footer>
-      <a class="logo link" href="./index.html" aria-label="логотип вэбстудия">Web<span class="logo-item">Studio</span></a>
+    <footer class="footer">
+      <a class="logo link" href="./index.html" aria-label="логотип вэбстудия">Web<span class="footer-logo-item">Studio</span></a>
 
       <address class="address">
         <span>г. Киев, пр-т Леси Украинки, 26</span><br />
